@@ -38,3 +38,61 @@ div {
     border-radius: 10px;
     margin: 1px
 }
+
+table,
+th,
+td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.mytable_class {
+    background-color: rgba(255, 166, 0, 0.502);
+}
+
+/* .img {
+    width: 80%;
+    min-width: 300px;
+    max-width: 800px;
+
+}  */
+
+* {   box-sizing: border-box;}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 50%;
+    min-width: 300px;
+    max-width: 600px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+input[type=text],input[type=password],select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    order: 1px solid #ccc;
+ 
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4caf50;
+    color: #fff;
+    padding:14px 20px;
+    margin: 8px 0;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

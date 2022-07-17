@@ -1,0 +1,40 @@
+/* ul.info {
+
+}
+
+div.info {} */
+
+
+ul.info>li {
+list-style: none; 
+/* color: aqua;   */
+}
+
+/* ul.info>li li {
+    list-style: none;
+} */
+
+
+ul.info>li li:nth-child(2) {
+    list-style: none;
+}
+
+ol li a {
+    text-decoration: none;
+}
+
+ol li a[target="_blank"] {
+    color: rgb(153, 255, 127);
+}
+
+ol li a[href="https://www.google.com/"] {
+    background-color: rgb(0, 8, 255);
+}
+
+ol li a[href*=google] {color: pink;}
+
+/* ol li a[href^="https"] {color: #7fffd4;} */
+
+ol li a[href$=".com.au/"] {background-color: rgb(255, 127, 223);}
+
+ol li a[href*="google"][href$=".com.au/"] {font-style: italic;}
